@@ -1,4 +1,3 @@
-import sys
 import argparse
 
 #create cli arguments
