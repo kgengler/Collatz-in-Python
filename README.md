@@ -6,6 +6,21 @@ co-workers have made them in other languages.
 [Collatz in C by marblenix](https://github.com/marblenix/Collatz-Conjecture-Steps)
 
 
+### Set up Virtual Environment
+From inside the project directory:
+
+Run:
+~~~
+python3 -m venv .
+~~~
+
+### Install Dependencies
+
+Run:
+~~~
+pip install -r requirements.txt
+~~~
+
 ### To use this program:
 
 Run:
