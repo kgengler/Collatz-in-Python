@@ -1,5 +1,8 @@
+#!/usr/bin/env py.test --pep8
+
 import unittest
 import collatz as c
+
 
 class CollatzTest(unittest.TestCase):
 
@@ -29,4 +32,3 @@ class CollatzTest(unittest.TestCase):
 
     def test_collatz_6171(self):
         self.assertEqual(c.collatz(6171), 261)
-
