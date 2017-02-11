@@ -44,6 +44,7 @@ Example Output:
 python3 collatz.py 60 -s
 
 Collatz Conjecture for 60
+Step 0: 60
 Step 1: 30
 Step 2: 15
 Step 3: 46
