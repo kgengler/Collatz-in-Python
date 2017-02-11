@@ -1,6 +1,9 @@
 ## Collatz Conjecture program
 
-A simple Collatz Conjecture program written in Python 3. Mainly because my co-workers have made them in other languages. [Collatz in Closure by kgengler](https://github.com/kgengler/collatz-clojure) & [Collatz in C by marblenix](https://github.com/marblenix/Collatz-Conjecture-Steps)
+A simple Collatz Conjecture program written in Python 3. Mainly because my 
+co-workers have made them in other languages. 
+[Collatz in Clojure by kgengler](https://github.com/kgengler/collatz-clojure) & 
+[Collatz in C by marblenix](https://github.com/marblenix/Collatz-Conjecture-Steps)
 
 
 ### To use this program:
@@ -47,3 +50,4 @@ Step 18: 2
 Step 19: 1
 Reached 1 in 19 steps.
 ~~~
+
