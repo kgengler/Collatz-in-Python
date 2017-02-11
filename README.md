@@ -1,4 +1,5 @@
 ## Collatz Conjecture program
+[![Build Status](https://travis-ci.org/kgengler/Collatz-in-Python.svg?branch=master)](https://travis-ci.org/kgengler/Collatz-in-Python)
 
 A simple Collatz Conjecture program written in Python 3. Mainly because my 
 co-workers have made them in other languages. 
