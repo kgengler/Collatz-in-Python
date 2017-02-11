@@ -21,6 +21,18 @@ Run:
 pip install -r requirements.txt
 ~~~
 
+### Run Unit Tests
+
+Run:
+~~~
+py.test collatz_test.py
+~~~
+
+With checkstyle run:
+~~~
+py.test --pep8 collatz_test.py
+~~~
+
 ### To use this program:
 
 Run:
