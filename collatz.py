@@ -1,23 +1,13 @@
-import argparse
 
-#create cli arguments
-parser = argparse.ArgumentParser()
-parser.add_argument("num", type=int)
-parser.add_argument("-s", "--steps", help="print out steps in conjecture", action="store_true")
-args = parser.parse_args()
-
-count = 0
-num = args.num
-
-print("\nCollatz Conjecture for %d" % num)
-
-#conjecture logic
-while num != 1:
-    if num % 2 == 0:
-        num /= 2
+def hotpo(n):
+    if n % 2 == 0:
+        return n / 2
     else:
-        num = 3 * num + 1
-    count += 1
-    if args.steps:
-        print("Step %d: %d" % (count, num))
-print("Reached 1 in %d steps.\n" % count)
+        return 3 * n + 1
+
+def collatz(n, acc = 0):
+    if n == 1:
+        return acc
+    else:
+        return collatz(hotpo(n), acc + 1)
+
