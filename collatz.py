@@ -7,10 +7,7 @@ def hotpo(n):
     Keyword arguments:
     n -- the number to check
     """
-    if n % 2 == 0:
-        return n / 2
-    else:
-        return 3 * n + 1
+    return n / 2 if n % 2 == 0 else 3 * n + 1
 
 def collatz(n, acc = 0, print_steps = False):
     """This function will return the number of HOTPO steps required to reach 1 
@@ -22,11 +19,8 @@ def collatz(n, acc = 0, print_steps = False):
     """
     if print_steps:
         print("Step %d: %d" % (acc, n))
-
-    if n == 1:
-        return acc
-    else:
-        return collatz(hotpo(n), acc + 1, print_steps)
+        
+    return acc if n == 1 else collatz(hotpo(n), acc + 1, print_steps)
 
 if __name__ == '__main__':
     # create cli arguments
@@ -40,4 +34,3 @@ if __name__ == '__main__':
 
     print("\nCollatz Conjecture for %d" % num)
     print("Reached 1 in %d steps.\n" % count)
-
